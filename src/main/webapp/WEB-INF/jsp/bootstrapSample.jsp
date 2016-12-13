@@ -7,6 +7,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Bootstrap get start</title>
+<style>
+.jb-cell {
+  margin: 15px 0px;
+  border: 1px solid #cccccc;
+}
+</style>
 <link rel="stylesheet" href="webjars/bootstrap/3.3.7/dist/css/bootstrap.min.css">
 
 <!--[if lt IE 9]>
@@ -34,6 +40,49 @@
 				</div>
 			</div>
 		</div>
+		<div class="row">
+        <div class="col-sm-12">
+          <div class="jb-cell">
+            <h1>Lorem</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="jb-cell">
+            <h2>Ipsum</h2>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="jb-cell">
+            <h2>Dolor</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="jb-cell">
+            <h3>Lorem</h2>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="jb-cell">
+            <h3>Ipsum</h2>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="jb-cell">
+            <h3>Dolor</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="jb-cell">
+            <h4>Lorem</h4>
+          </div>
+        </div>
+      </div>
 	</div>
 </body>
 </html>
